@@ -1,0 +1,40 @@
+
+# i3 grayscale theme
+
+# basic palette
+set $brightgravel   #d9cec3
+set $lightgravel    #998f84
+set $gravel         #857f78
+set $mediumgravel   #666462
+set $deepgravel     #45413b
+set $deepergravel   #35322d
+set $darkgravel     #242321
+set $blackgravel    #1c1b1a
+set $blackestgravel #141413
+
+set $white #d9cec3
+set $black #141413
+set $gray #45413b
+set $cyan #998f84
+set $green #857f78
+set $orange #666462
+set $pink #998f84
+set $purple #857f78
+set $red #666462
+set $yellow #d9cec3
+
+# dmenu colors
+set $dmenu_nb #141413
+set $dmenu_sb #45413b
+set $dmenu_nf #d9cec3
+set $dmenu_sf #d9cec3
+
+# class                 border   bground  text    indicator  child_border
+client.focused          $gray    $gray    $white  $purple    $pink
+client.focused_inactive $gray    $gray    $black  $purple    $pink
+client.unfocused        $gray    $black   $gray   $purple    $black
+client.urgent           $orange  $orange  $black  $purple    $orange
+client.placeholder      $black   $black   $white  $purple    $black
+
+client.background       $gray
+

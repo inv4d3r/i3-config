@@ -1,0 +1,37 @@
+
+# i3 default (deep space) theme
+
+# basic palette
+set $gray1  #1b202a
+set $gray2  #232936
+set $gray3  #323c4d
+set $gray4  #51617d
+set $gray5  #9aa7bd
+set $red    #b15e7c
+set $green  #709d6c
+set $yellow #b5a262
+set $blue   #608cc3
+set $purple #8f72bf
+set $cyan   #56adb7
+set $orange #b3785d
+set $pink   #c47ebd
+
+set $black #1b202a
+set $white #9aa7bd
+set $gray #323c4d
+
+# dmenu colors
+set $dmenu_nb #1b202a
+set $dmenu_sb #323c4d
+set $dmenu_nf #ffffff
+set $dmenu_sf #ffffff
+
+# class                 border   bground  text    indicator  child_border
+client.focused          $gray    $gray    $white  $purple    $pink
+client.focused_inactive $gray    $gray    $black  $purple    $pink
+client.unfocused        $gray    $black   $gray   $purple    $black
+client.urgent           $orange  $orange  $black  $purple    $orange
+client.placeholder      $black   $black   $white  $purple    $black
+
+client.background       $gray
+

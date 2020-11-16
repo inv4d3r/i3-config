@@ -1,0 +1,45 @@
+
+# i3 badwolf theme
+
+# basic palette
+set $brightgravel   #d9cec3
+set $lightgravel    #998f84
+set $gravel         #857f78
+set $mediumgravel   #666462
+set $deepgravel     #45413b
+set $deepergravel   #35322d
+set $darkgravel     #242321
+set $blackgravel    #1c1b1a
+set $blackestgravel #141413
+
+set $yellow #fade3e
+set $dirty_yellow #f4cf86
+set $red #ff2c4b
+set $cyan #8cffba
+set $blue #0a9dff
+set $orange #ffa724
+set $green #aeee00
+set $pink #ff9eb8
+set $brown #b88853
+set $other_brown #c7915b
+set $dark_brown #88633f
+
+set $black #141413
+set $white #d9cec3
+set $gray #45413b
+
+# dmenu colors
+set $dmenu_nb #141413
+set $dmenu_sb #857f78
+set $dmenu_nf #d9cec3
+set $dmenu_sf #d9cec3
+
+# class                 border   bground  text    indicator  child_border
+client.focused          $gray    $gray    $white  $brown     $pink
+client.focused_inactive $gray    $gray    $black  $brown     $pink
+client.unfocused        $gray    $black   $gray   $brown     $black
+client.urgent           $orange  $orange  $black  $brown     $orange
+client.placeholder      $black   $black   $white  $brown     $black
+
+client.background       $gray
+

@@ -1,0 +1,37 @@
+
+# i3 nord theme
+
+# basic palette
+set $black     #2E3440
+set $nearblack #3B4252
+set $darkgray  #434C5E
+set $gray      #4C566A
+set $lightgray #D8DEE9
+set $nearwhite #E5E9F0
+set $white     #ECEFF4
+set $cyan_dark #8FBCBB
+set $cyan      #88C0D0
+set $blue      #81A1C1
+set $blue_dark #5E81AC
+set $red       #BF616A
+set $orange    #D08770
+set $yellow    #EBCB8B
+set $green     #A3BE8C
+set $purple    #B48EAD
+set $pink      #B48EAD
+
+# dmenu colors
+set $dmenu_nb #2E3440
+set $dmenu_sb #4C566A
+set $dmenu_nf #ECEFF4
+set $dmenu_sf #ECEFF4
+
+# class                 border   bground  text    indicator  child_border
+client.focused          $gray    $gray    $white  $purple    $pink
+client.focused_inactive $gray    $gray    $black  $purple    $pink
+client.unfocused        $gray    $black   $gray   $purple    $black
+client.urgent           $orange  $orange  $black  $purple    $orange
+client.placeholder      $black   $black   $white  $purple    $black
+
+client.background       $gray
+

@@ -1,0 +1,48 @@
+
+# i3 dracula theme
+
+# basic palette
+#background #1d1f21
+#background_reduced #232c31
+#foreground #c5c8c6
+set $selection #373b41
+set $line #282a2e
+set $comment #707880
+set $red #cc6666
+set $orange #de935f
+set $yellow #f0c674
+set $green #b5bd68
+set $cyan #8abeb7
+set $blue #81a2be
+set $purple #b294bb
+set $pink #b294bb
+set $window #303030
+set $darkcolumn #1c1c1c
+set $addbg #5F875F
+set $addfg #d7ffaf
+set $changebg #5F5F87
+set $changefg #d7d7ff
+set $delbg #cc6666
+set $darkblue #00005f
+set $darkcyan #005f5f
+set $darkred #5f0000
+set $darkpurple #5f005f
+set $white #c5c8c6
+set $black #232c31
+set $gray #5F5F87
+
+# dmenu colors
+set $dmenu_nb #232c31
+set $dmenu_sb #5F5F87
+set $dmenu_nf #c5c8c6
+set $dmenu_sf #c5c8c6
+
+# class                 border   bground  text    indicator  child_border
+client.focused          $gray    $gray    $white  $purple    $pink
+client.focused_inactive $gray    $gray    $black  $purple    $pink
+client.unfocused        $gray    $black   $gray   $purple    $black
+client.urgent           $orange  $orange  $black  $purple    $orange
+client.placeholder      $black   $black   $white  $purple    $black
+
+client.background       $gray
+
