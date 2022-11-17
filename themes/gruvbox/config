@@ -29,9 +29,9 @@ set $dmenu_nf #fbf1c7
 set $dmenu_sf #fbf1c7
 
 # class                 border   bground  text    indicator  child_border
-client.focused          $gray    $gray    $white  $cyan      $purple
+client.focused          $gray    $bg1     $white  $cyan      $purple
 client.focused_inactive $gray    $gray    $black  $cyan      $purple
-client.unfocused        $gray    $black   $gray   $cyan      $black
+client.unfocused        $gray    $bg2     $bg4    $cyan      $black
 client.urgent           $orange  $orange  $black  $cyan      $orange
 client.placeholder      $black   $black   $white  $cyan      $black
 
